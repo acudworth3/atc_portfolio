@@ -1,16 +1,21 @@
 {
   "name": "atc_portfolio",
   "version": "0.1.0",
-  "homepage": "http://acudworth3.github.io/atc_portfolio/",
+  "homepage": ".",
   "private": true,
   "dependencies": {
+    "@types/jest": "^29.2.3",
+    "@types/node": "^18.11.9",
+    "@types/react": "^18.0.25",
+    "@types/react-dom": "^18.0.9",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1"
+    "react-scripts": "5.0.1",
+    "typescript": "^4.9.3"
   },
   "scripts": {
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
