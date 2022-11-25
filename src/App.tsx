@@ -1,13 +1,10 @@
-import React from 'react';
-import logo from './logo.svg';
-import { Counter } from './features/counter/Counter';
-import './App.css';
+import "./App.css";
 
 function App() {
   return (
-<div className="setup">
-  
-</div>
+    <div className="App">
+      <header className="App-header">I am a blank template</header>
+    </div>
   );
 }
 
