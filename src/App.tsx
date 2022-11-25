@@ -1,10 +1,10 @@
 import "./App.css";
+import {GridTableSample} from './features/ag-grid-sample/GridTableSample'
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">I am a blank template</header>
-    </div>
+  return (<>
+      <GridTableSample></GridTableSample>      
+    </>
   );
 }
 
