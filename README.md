@@ -8,7 +8,7 @@ Setup:
 - [x] typescript
 - [x] React Router
     - [x] setup routing
-    - [ ] add dynamic routing
+    - [ ] Add dynamic routing
 - [x] redux
     - [ ] utlize for state
 - [x] rtk
