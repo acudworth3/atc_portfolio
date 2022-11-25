@@ -7,11 +7,10 @@ http://acudworth3.github.io/atc_portfolio
 - [x] typescript
 - [ ] setup routing
 - [x] redux
+    - [ ] utlize for state
 - [x] rtk
+    - [ ] setup openAPI auto-gen
 - [x] mui
     - [ ] Create Theme
 - [ ] Ag-grid
 
-- [ ] Mercury
-- [x] Venus
-- [x] Earth (Orbit/Moon)
