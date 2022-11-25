@@ -4,13 +4,24 @@ http://acudworth3.github.io/atc_portfolio
 
 
 ## TODO 
+Setup:
 - [x] typescript
-- [ ] setup routing
+- [x] React Router
+    - [x] setup routing
+    - [ ] add dynamic routing
 - [x] redux
     - [ ] utlize for state
 - [x] rtk
     - [ ] setup openAPI auto-gen
 - [x] mui
-    - [ ] Create Theme
-- [ ] Ag-grid
+    - [x] Create Theme
+    - [ ] Adjust Theme
+- [x] Ag-grid
+
+Features:
+- [ ] Navbar
+- [ ] Ag Grid Example
+- [ ] MUI Info Example
+
+
 
