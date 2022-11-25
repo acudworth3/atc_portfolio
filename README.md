@@ -16,10 +16,11 @@ Setup:
 - [x] mui
     - [x] Create Theme
     - [ ] Adjust Theme
+    - [X] Generic Page
 - [x] Ag-grid
 
 Features:
-- [ ] Navbar
+- [X] Navbar
 - [ ] Ag Grid Example
 - [ ] MUI Info Example
 - [ ] OpenAPI Tooling
