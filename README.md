@@ -22,6 +22,8 @@ Features:
 - [ ] Navbar
 - [ ] Ag Grid Example
 - [ ] MUI Info Example
+- [ ] OpenAPI Tooling
+- [ ] React Redux
 
 
 
