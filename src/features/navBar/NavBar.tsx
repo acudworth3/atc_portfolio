@@ -88,7 +88,9 @@ function NavBar() {
                 key={page}
                 sx={{ my: 2, color: "white", display: "block" }}
               >
-                <Link to={page}>{page}</Link>
+                <Link style={{ color: "white" }} to={page}>
+                  {page}
+                </Link>
               </Button>
             ))}
           </Box>
