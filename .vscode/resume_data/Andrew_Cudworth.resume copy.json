@@ -1,0 +1,416 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Andrew Cudworth",
+    "label": "Software Engineer AB-Inbev",
+    "image": "",
+    "email": "acudworth3@gmail.com",
+    "phone": "",
+    "url": "",
+    "summary": "Computer Science Master's Student graduating in August 2020. 4 years professional experience in supply chain software implementation.",
+    "location": {
+      "countryCode": "US",
+      "address": "United States"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "andrew-cudworth-a594223a",
+        "url": "https://www.linkedin.com/in/andrew-cudworth-a594223a/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Anheuser-Busch",
+      "position": "Software Engineer",
+      "startDate": "2021-10-31",
+      "endDate": "",
+      "highlights": [],
+      "summary": "•\tAzure Architecture \n•\tRelease Engineering\n•\tWeb App Development",
+      "url": "https://www.linkedin.com/company/anheuser-busch/",
+      "location": "St Louis, Missouri, United States"
+    },
+    {
+      "name": "Georgia Institute of Technology",
+      "position": "Graduate Teaching Assistant",
+      "startDate": "2019-01-31",
+      "endDate": "",
+      "highlights": [],
+      "summary": "Course ID 6340\n-Grade Assignments\n-Respond to Student Queries\n-Hold Weekly Office Hours\n\nCourse Content:\nhttps://www.udacity.com/course/software-analysis-testing--ud333",
+      "url": "https://www.linkedin.com/school/georgia-institute-of-technology/",
+      "location": "Online"
+    },
+    {
+      "name": "Georgia Institute of Technology",
+      "position": "Graduate Student",
+      "startDate": "2018-08-31",
+      "endDate": "2020-08-31",
+      "highlights": [],
+      "url": "https://www.linkedin.com/school/georgia-institute-of-technology/"
+    },
+    {
+      "name": "Mastercard",
+      "position": "Business Operations Engineer",
+      "startDate": "2020-10-31",
+      "endDate": "2021-11-30",
+      "highlights": [],
+      "summary": "•\tSplunk: software defined event code based alerting and dashboarding; log analysis\n•\tXedia Labs XLR release orchestration: automating tasks in Jenkins, Bitbucket, host SSH, BMC\n•\tIBM Mainframe to Pivotal Cloud Foundry file transfer infrastructure Migration Support",
+      "url": "https://www.linkedin.com/company/mastercard/"
+    },
+    {
+      "name": "Walmart eCommerce",
+      "position": "Associate Product Manager",
+      "startDate": "2018-01-31",
+      "endDate": "2018-06-30",
+      "highlights": [],
+      "url": "https://www.linkedin.com/company/walmart/",
+      "location": "San Bruno CA"
+    },
+    {
+      "name": "Walmart Global eCommerce",
+      "position": "Associate Manager Transportation Systems",
+      "startDate": "2017-01-31",
+      "endDate": "2017-12-31",
+      "highlights": [],
+      "summary": "Responsibilities:\n•\tTransportation Operational KPI Data specialist; deep knowledge of data sources and strategic value\n•\tCross product and cross functional project execution via roadmap planning and direct support/implementation\n•\tDrive short and long term initiatives supporting department and company goals centered around systems/software product improvements\n\nProjects:\nOperational Carrier Communication Software Improvement\n•\tCentralized Real Team View of Trailer loading status UI across 15 buildings\n•\tAutomate email communication process for trailer tendering via UI + UX\n•\tMinimum Viable Product rollout across 15 buildings via 6 person operational team members\n•\tDefine Requirements and drive development with 1 product manager and 4 engineering associates for short and long term product requirements\n\nOperational Data Store DB KPI Migration\n•\tCoordinate KPI migration from Teradata Pull model DB to Elasticsearch Push model\n•\tDefine and gather data needs for On Time Delivery and Network Transit Capability calculations\n•\tIdentify data source products and partners; Ensure push from product to Elasticsearch DB\n•\tFinalize definitions and understandings for searchable Oracle Reporting DB \n•\tDocument and organize transition across 5 KPI team members, 3 engineering associates and 4 product manager  \n\nCross Functional Partners:\n•\tWMT internal Order Managements Product\n•\tWMT internal Package tracking software\n•\tWMT internal Reporting DBs (Oracle, Teradata, Elasticsearch)\n•\tWMT internal Warehouse Management products +External (SSI ANT)\n•\t6 Person transportation operational management team across 15 buildings\n•\tWalmart Labs TOPs software engineering team + Product Manager",
+      "url": "https://www.linkedin.com/company/walmart/",
+      "location": "San Bruno, CA"
+    },
+    {
+      "name": "Manhattan Associates",
+      "position": "Software Consultant",
+      "startDate": "2014-08-31",
+      "endDate": "2017-01-31",
+      "highlights": [],
+      "summary": "Major Projects/Clients: \nAmericans Eagle Omni Channel Warehouse Upgrade \n\tSummary:\n•\tSupported DTC-Retail warehouse WMi system merge onsite and remote over 11 months\n•\tUpgrade from 2010 to 2013 Warehouse Management i-series code base\n•\tCoordinated with 4 member US based consulting team, 2 US based analysts and 2 India based analysts for software design, testing, installation and support for over 25 individual extensions and base code.\nTesting:\n•\tTested and delivered over  25 individual software extensions on WMI-2013 platform\n•\tCreated over 25 testing documents and updates extension specifications for changes made while testing\n•\tDocumented base and custom configuration creating 8 specification documents for initial warehouse setup\n\tGo-Live Support\n•\tResolved live warehouse issues on site during software testing and installation over 3 month time frame\n•\tInterfaced with client partner MHE and host vendors ensuring accuracy across 3 separate software channels\n•\tContinued issue support on and off site with project team addressing over 600 issues from testing to hand off\nSecondary Clients: Allen Edmonds, Polo Ralph Lauren\n•\tTesting support at peak development and delivery phases of WM-i upgrades\n\nAmerisourceBergen: Ground-Up Warehouse Implementation  \t\t\tJune 2016-November 2016\nSummary:\n•\tActed as lead consultant on a new warehouse environment design, testing, and implementation budget >$1M\n•\tAligned software and process document delivery with new warehouse construction schedule\n•\tCreated inventory flow and user tracking process documents for end to end warehouse process \n•\tManaged a team of 1 consultant and 1 analyst for configuration tracking and implementation\n\nSecondary Clients: Allen Edmonds, Polo Ralph Lauren\n\nInternal Trainings:\nSQL level ii (instructor) WMi 2015 Key Features & Additional Features, Managing your Workload with Outlook, Excel Features and Formulas: Intermediate",
+      "url": "https://www.linkedin.com/company/manhattan-associates/",
+      "location": "2300 Windy Ridge Parkway NW"
+    },
+    {
+      "name": "Enercon Services",
+      "position": "Engineering Intern",
+      "startDate": "2013-05-31",
+      "endDate": "2013-08-31",
+      "highlights": [],
+      "summary": "• Support safety analysis division with implementation of FLEX contracts\n• Prepare technical reports including SFPI Dosage and NRC submissions\n• Research EPA and NRC regulations in connection to FLEX projects\n• Track ENERCON progress on NRC requests for additional information\n\nLarge Truck/ Diesel Generator Specification Recommendation\n• Recommend truck and trailer combinations for nuclear plant emergency response\n• Analyzed truck and generator combinations for effective towing and implementation\n• Communicated client needs and concerns to equipment vendors",
+      "url": "https://www.linkedin.com/company/enercon-services/",
+      "location": "Kennesaw, GA"
+    },
+    {
+      "name": "Georgia Tech Department of Housing",
+      "position": "Resident Assistant",
+      "startDate": "2011-08-31",
+      "endDate": "2013-05-31",
+      "highlights": [],
+      "summary": "•\tManage a floor of 44 residents living in campus housing and act as a mentor and coach\n•\tResponded as first point of contact for emergencies and  maintain safe living conditions",
+      "url": "",
+      "location": "Atlanta Georgia"
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Atlanta Habitat for Humanity",
+      "position": "Volunteer/Skilled Supervisor",
+      "startDate": "2014-08-31",
+      "endDate": "",
+      "summary": "Home ownership charity",
+      "highlights": [],
+      "url": "https://www.linkedin.com/company/371871"
+    }
+  ],
+  "education": [
+    {
+      "institution": "Georgia Institute of Technology",
+      "area": "Computer Science",
+      "studyType": "Master's degree",
+      "startDate": "2018-12-31",
+      "endDate": "2020-12-31",
+      "score": "",
+      "courses": []
+    },
+    {
+      "institution": "Georgia Institute of Technology",
+      "area": "Mechanical Engineering",
+      "studyType": "Bachelor's degree",
+      "startDate": "2010-12-31",
+      "endDate": "2014-12-31",
+      "score": "",
+      "courses": []
+    }
+  ],
+  "awards": [],
+  "certificates": [
+    {
+      "name": "Python Programming: Intermediate",
+      "issuer": "Dataquest.io",
+      "startDate": "2017-09-30",
+      "url": "https://www.dataquest.io/verify_cert/HHHUT0V6CNTA8EC111PC/"
+    },
+    {
+      "name": "Python for Data Science",
+      "issuer": "General Assembly",
+      "startDate": "2018-02-28"
+    },
+    {
+      "name": "Microsoft Certified: Azure Fundamentals",
+      "issuer": "Microsoft",
+      "startDate": "2021-11-30",
+      "url": "https://www.credly.com/badges/09671538-b96d-4e0c-9d7d-2bd598bab771?source=linked_in_profile"
+    },
+    {
+      "name": "Microsoft Certified: Power Platform Fundamentals",
+      "issuer": "Microsoft",
+      "startDate": "2021-12-31",
+      "url": "https://www.credly.com/badges/9f1b3c7e-81fa-4d81-93f3-1f9bf3c3f137?source=linked_in_profile"
+    },
+    {
+      "name": "Microsoft Certified: Azure Developer Associate",
+      "issuer": "Microsoft",
+      "startDate": "2022-01-31",
+      "url": "https://www.credly.com/badges/559aae8d-3cf9-4987-a53a-88b5a13132ce?source=linked_in_profile"
+    },
+    {
+      "name": "Microsoft Certified: DevOps Engineer Expert",
+      "issuer": "Microsoft",
+      "startDate": "2022-03-31",
+      "url": "https://www.credly.com/badges/3c9029d7-aa4f-4d9f-98b0-720b8e815b0d/public_url"
+    }
+  ],
+  "publications": [],
+  "skills": [
+    {
+      "name": "React.js",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Data Analysis",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Python",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Machine Learning",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Georgia Institute of Technology",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Microsoft Excel",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Teradata SQL",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "SQL",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Engineering Management",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Leadership",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Teamwork",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Knime",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Predictive Maintenance",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Software Analysis",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Warehouse Management Systems",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Software Testing",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Time Management",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Engineering",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "c++",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Communication",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Supply Chain Operations",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Microsoft Word",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "NumPy",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Java",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Not Afraid of Bears",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Tableau",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Supply Chain Software",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Supply Chain Consulting",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "PowerPoint",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Pandas (Software)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Testing",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Public Speaking",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Microsoft Office",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "PL/SQL",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Datalog",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Supply Chain Management",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Matlab",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Reinforcement Learning",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Data Science",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "HTML",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "WMI",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Oracle SQL Developer",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Product Development",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Management",
+      "level": "",
+      "keywords": []
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native Speaker"
+    }
+  ],
+  "interests": [],
+  "references": [],
+  "projects": [],
+  "meta": {
+    "version": "v1.0.0",
+    "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json"
+  }
+}

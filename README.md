@@ -19,6 +19,8 @@ Setup:
     - [X] Generic Page
 - [x] Ag-grid
 
+- [ ] Resume Generation
+
 Features:
 - [X] Navbar
 - [ ] Ag Grid Example
@@ -28,3 +30,17 @@ Features:
 
 
 
+## Resources:
+https://jsonresume.org/schema/
+https://bareynol.github.io/mui-theme-creator/
+https://jsonresume.org/themes/
+https://github.com/jsonresume/resume-cli/issues/408
+
+### Resume Generation
+https://github.com/davcd/jsonresume-theme-actual/blob/master/resume.json
+https://jsonresume.org/themes/
+https://github.com/davcd/jsonresume-theme-actual
+```
+npm install jsonresume-theme-paper
+./ resume export resume.pdf --format pdf --theme actual
+```
