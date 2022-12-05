@@ -11,9 +11,9 @@ export const themeOptions: ThemeOptions = {
     secondary: {
       main: "#f50057",
     },
-    background: {
-      paper: "#000000",
-    },
+    // background: {
+    //   paper: "#000000",
+    // },
   },
 };
 
