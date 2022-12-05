@@ -11,7 +11,7 @@ import Avatar from "@mui/material/Avatar";
 import Button from "@mui/material/Button";
 import Tooltip from "@mui/material/Tooltip";
 import MenuItem from "@mui/material/MenuItem";
-import { Navigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 // TODO setup links to pages
 const pages = ["Resume", "Material-UI", "AG-Grid", "Open API", "React-Redux"];
@@ -86,10 +86,9 @@ function NavBar() {
             {pages.map((page) => (
               <Button
                 key={page}
-                href={page}
                 sx={{ my: 2, color: "white", display: "block" }}
               >
-                {page}
+                <Link to={page}>{page}</Link>
               </Button>
             ))}
           </Box>

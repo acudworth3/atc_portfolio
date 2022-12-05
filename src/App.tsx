@@ -1,11 +1,13 @@
 import "./App.css";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Page1 from "./features/pages/Page1";
-import Page2 from "./features/pages/Page2";
-import Page3 from "./features/pages/Page3";
+import { Route, Routes } from "react-router-dom";
 import Error from "./features/pages/Error";
 import Homepage from "./features/pages/Homepage";
 import NavBar from "./features/navBar/NavBar";
+import AgGrid from "./features/pages/AgGrid";
+import MaterialUI from "./features/pages/MaterialUI";
+import OpenAPI from "./features/pages/OpenAPI";
+import ReactRedux from "./features/pages/ReactRedux";
+import Resume from "./features/pages/Resume";
 
 export default function App() {
   return (
@@ -14,11 +16,14 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Homepage />} />
         <Route path="/atc_portfolio" element={<Homepage />} />
-        <Route path="page1" element={<Page1 />} />
-        <Route path="page2" element={<Page2 />} />
-        <Route path="page3" element={<Page3 />} />
+        <Route path="Resume" element={<Resume />} />
+        <Route path="Material-UI" element={<MaterialUI />} />
+        <Route path="AG-Grid" element={<AgGrid />} />
+        <Route path="Open API" element={<OpenAPI />} />
+        <Route path="React-Redux" element={<ReactRedux />} />
         <Route path="*" element={<Error />} />
       </Routes>
     </div>
   );
 }
+// const pages = ["Resume", "Material-UI", "AG-Grid", "Open API", "React-Redux"];
