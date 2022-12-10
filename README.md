@@ -37,10 +37,13 @@ https://jsonresume.org/themes/
 https://github.com/jsonresume/resume-cli/issues/408
 
 ### Resume Generation
-https://github.com/davcd/jsonresume-theme-actual/blob/master/resume.json
-https://jsonresume.org/themes/
-https://github.com/davcd/jsonresume-theme-actual
+- https://github.com/davcd/jsonresume-theme-actual/blob/master/resume.json
+- https://jsonresume.org/themes/
+- https://github.com/davcd/jsonresume-theme-actual
+- list of themes: https://registry.jsonresume.org/themes
 ```
+//install the them
 npm install jsonresume-theme-paper
+
 ./ resume export resume.pdf --format pdf --theme actual
 ```
