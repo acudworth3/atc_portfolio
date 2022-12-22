@@ -8,6 +8,7 @@ import MaterialUI from "./features/pages/MaterialUI";
 import OpenAPI from "./features/pages/OpenAPI";
 import ReactRedux from "./features/pages/ReactRedux";
 import Resume from "./features/pages/Resume";
+import { Counter } from "./features/counter/Counter";
 
 export default function App() {
   return (
@@ -21,6 +22,7 @@ export default function App() {
         <Route path="AG-Grid" element={<AgGrid />} />
         <Route path="Open API" element={<OpenAPI />} />
         <Route path="React-Redux" element={<ReactRedux />} />
+        <Route path="counter" element={<Counter />} />
         <Route path="*" element={<Error />} />
       </Routes>
     </div>

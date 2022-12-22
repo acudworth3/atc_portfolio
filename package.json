@@ -82,7 +82,6 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "gen-resumes": "resume export resume.pdf --format pdf --theme actual",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
