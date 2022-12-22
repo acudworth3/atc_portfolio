@@ -9,6 +9,7 @@ import {
   incrementIfOdd,
   selectCount,
   modifyNestedObj,
+  modifyNestedObjWoTypes,
 } from "./counterSlice";
 import styles from "./Counter.module.css";
 import { Box } from "@mui/material";
@@ -18,9 +19,10 @@ export function Counter() {
   const { nestObj } = useAppSelector((state) => state.counter);
   const dispatch = useAppDispatch();
   const [incrementAmount, setIncrementAmount] = useState("2");
-  const [displayObj, setdisplayObj] = useState(
-    useAppSelector((state) => state.counter.nestObj)
-  );
+  // aslo
+  // const [displayObj, setdisplayObj] = useState(
+  //   useAppSelector((state) => state.counter.nestObj)
+  // );
 
   const incrementValue = Number(incrementAmount) || 0;
 
@@ -75,13 +77,15 @@ export function Counter() {
           </button>
           <button
             className={styles.button}
-            onClick={() =>
-              dispatch(
-                modifyNestedObj({ bool1: true, bool2: true, bool3: true })
-              )
-            }
+            onClick={() => dispatch(modifyNestedObj({ bool1: true }))}
           >
             Demo Generic reducer
+          </button>
+          <button
+            className={styles.button}
+            onClick={() => dispatch(modifyNestedObjWoTypes({ bool2: true }))}
+          >
+            Demo Generic reducer untyped
           </button>
         </div>
       </div>

@@ -5,7 +5,7 @@ import { fetchCount } from './counterAPI';
 export interface CounterState {
   value: number;
   status: 'idle' | 'loading' | 'failed';
-  nestObj?: {bool1?: boolean, bool2: boolean,bool3: boolean,};  
+  nestObj?: {bool1?: boolean, bool2?: boolean,bool3?: boolean,};  
 }
 
 const initialState: CounterState = {
@@ -47,7 +47,11 @@ export const counterSlice = createSlice({
     incrementByAmount: (state, action: PayloadAction<number>) => {
       state.value += action.payload;
     },
-    modifyNestedObj: (state, action) => {
+    modifyNestedObj: (state, action: PayloadAction<{bool1?: boolean, bool2?: boolean,bool3?: boolean}>) => {
+      state.nestObj = {...state.nestObj, ...action.payload};
+      
+    },
+    modifyNestedObjWoTypes: (state, action) => {
       state.nestObj = {...state.nestObj, ...action.payload};
       
     }
@@ -69,7 +73,7 @@ export const counterSlice = createSlice({
   },
 });
 
-export const { increment, decrement, incrementByAmount, modifyNestedObj } = counterSlice.actions;
+export const { increment, decrement, incrementByAmount, modifyNestedObj, modifyNestedObjWoTypes} = counterSlice.actions;
 
 // The function below is called a selector and allows us to select a value from
 // the state. Selectors can also be defined inline where they're used instead of
