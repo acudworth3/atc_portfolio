@@ -19,7 +19,8 @@ Setup:
     - [X] Generic Page
 - [x] Ag-grid
 
-- [ ] Resume Generation
+- [X] Resume Generation
+    - [ ] embed PDFs in webpage
 
 Features:
 - [X] Navbar
