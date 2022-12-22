@@ -14,14 +14,7 @@ import MenuItem from "@mui/material/MenuItem";
 import { Link } from "react-router-dom";
 
 // TODO setup links to pages
-const pages = [
-  "Resume",
-  "Material-UI",
-  "AG-Grid",
-  "Open API",
-  "React-Redux",
-  "Counter",
-];
+const pages = ["Resume", "Material-UI", "AG-Grid", "Open API", "React-Redux"];
 //TODO replace setting with LinkedIn Descriptions
 const settings = ["Profile", "Account", "Dashboard", "Logout"];
 

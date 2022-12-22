@@ -21,8 +21,7 @@ export default function App() {
         <Route path="Material-UI" element={<MaterialUI />} />
         <Route path="AG-Grid" element={<AgGrid />} />
         <Route path="Open API" element={<OpenAPI />} />
-        <Route path="React-Redux" element={<ReactRedux />} />
-        <Route path="counter" element={<Counter />} />
+        <Route path="React-Redux" element={<Counter />} />
         <Route path="*" element={<Error />} />
       </Routes>
     </div>

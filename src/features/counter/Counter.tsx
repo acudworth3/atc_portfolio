@@ -12,7 +12,7 @@ import {
   modifyNestedObjWoTypes,
 } from "./counterSlice";
 import styles from "./Counter.module.css";
-import { Box } from "@mui/material";
+import { Box, Typography } from "@mui/material";
 
 export function Counter() {
   const count = useAppSelector(selectCount);
@@ -33,6 +33,11 @@ export function Counter() {
   return (
     <>
       <div>
+        <Box className={styles.row}>
+          <Typography>Redux State Object: </Typography>
+          <br />
+          <code>{JSON.stringify(nestObj)}</code>
+        </Box>
         <div className={styles.row}>
           <button
             className={styles.button}
@@ -74,6 +79,16 @@ export function Counter() {
             onClick={() => dispatch(incrementIfOdd(incrementValue))}
           >
             Add If Odd
+          </button>
+          <button
+            className={styles.button}
+            onClick={() =>
+              dispatch(
+                modifyNestedObj({ bool1: false, bool2: false, bool3: false })
+              )
+            }
+          >
+            Demo Reset State
           </button>
           <button
             className={styles.button}
