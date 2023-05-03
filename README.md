@@ -3,6 +3,8 @@
 http://acudworth3.github.io/atc_portfolio
 
 
+edited from ipad
+
 ## TODO 
 Setup:
 - [x] typescript
